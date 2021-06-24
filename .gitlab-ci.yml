@@ -4,3 +4,16 @@ include:
 variables:
   SAST_JAVA_VERSION: 11
   POSTGRES_ENABLED: "false"
+
+  # PRODUCTION_REPLICAS: 4
+  # CANARY_ENABLED: canary
+  # INCREMENTAL_ROLLOUT_MODE: timed
+  #
+  # speedup on first run
+  #
+  CODE_QUALITY_DISABLED: "true"
+  SAST_DISABLED: "true"
+  CONTAINER_SCANNING_DISABLED: "true"
+  DEPENDENCY_SCANNING_DISABLED: "true"
+  DAST_DISABLED: "true"
+  LICENSE_MANAGEMENT_DISABLED: "true"
