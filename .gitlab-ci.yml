@@ -3,3 +3,4 @@ include:
 
 variables:
   SAST_JAVA_VERSION: 11
+  POSTGRES_ENABLED: "false"
