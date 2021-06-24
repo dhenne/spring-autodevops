@@ -7,7 +7,7 @@ variables:
 
   # PRODUCTION_REPLICAS: 4
   # CANARY_ENABLED: canary
-  # INCREMENTAL_ROLLOUT_MODE: timed
+  # INCREMENTAL_ROLLOUT_MODE: manual
   #
   # speedup on first run
   #
